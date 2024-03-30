@@ -28,16 +28,29 @@
             <img src="UnityBuilt.png">
         </div>
         <div class="row">
-            <P>      </P>
-            <img src="3DModeladd.png">
+            <P>Now, we go on to set up the hardware, I picked a joystick. And to connect it to Unity, I set it up with Arduino first. </P>
+            <img src="ArduinoSetup.png">
+            <img src="Joystick.jpg">
+        </div>
+
+        <div class="row">
+            <P>We first need to set the game object's movement, I have the script set up like this: </P>
+            <img src="GOMovement.png">
+            <img src="Collider.png">
+
         </div>
         
 
         <div class="row">
             <p>
-                I then go on to design the entry page, however, it won't lead me to my scene. I eventually ended up debugging with Chat GPT and found out for some reason, I didn't have an Event System. Nor did I build my scenes.
+                After some troubleshoot, the joystick is working. To adjust the movement better, I adjusted around the delay in Arduino to make it shorter, additionally set a deadzone around the middle area, to make sure when resting, the joystick won't move the game object around.
             </p>
-            <img src="BuildSettingNotFound.png">
+        </div>
+        <div class="row">
+            <img src="DelayChange.png">
+            <img src="SetDeadzone.png">
+         </div>
+
         </div>
         <div class="row">
             <p>
