@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="DreamSpaceDocumentation.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Documentation: Made for Play</title>
+</head>
+<body>
+    <header>
+        <h1>Documentation: <br> Made to Play: Documentation</h1>
+    </header>
+    <main>
+        <div class="row">
+            <p>
+                My idea for ideal dream place exists somehwere mountains and water meet, there's plenty of green. Yet it's not a strict nature only environment. It stores all your memory and lost objects from the past. Here, the physics and gravity work different than it is on the place. Everything you missed and lost will be forever stored here, and nothing will be lost or damaged again.
+                First, we build the terrain, and changed the skybox: 
+            </p>
+            <img src="TerrainMade.png">
+        </div>
+
+        <div class="row">
+            <p>
+                Then to add water, i realized I have to switch my file from Core to URP. Thus I redid that and added water. Along with other 3D objects, the space is pretty much done.
+            </p>
+            <img src="WaterAdd.png">
+        </div>
+        <div class="row">
+            <P>      </P>
+            <img src="3DModeladd.png">
+        </div>
+        
+
+        <div class="row">
+            <p>
+                I then go on to design the entry page, however, it won't lead me to my scene. I eventually ended up debugging with Chat GPT and found out for some reason, I didn't have an Event System. Nor did I build my scenes.
+            </p>
+            <img src="BuildSettingNotFound.png">
+        </div>
+        <div class="row">
+            <p>
+                After fixing that,  once we're in, we now need to make the 3D models interactive, by making them into prefabs, and add rigidbody and capsule collider. Once all thaT is done, I added the ray casting script to my main camera. 
+            </p>
+            <img src="RigidBodyCapsuleAdded.png">
+        </div>
+
+        <h1>FINAL Render</h1>
+        <iframe width="1400" height="750" src="https://www.youtube.com/embed/MI-FNcfrEKI?si=xJZ_fLfFmcx9rAro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </main>
+</body>
+</html>
